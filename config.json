@@ -1,0 +1,38 @@
+{
+  "world": {
+    "width": 800,
+    "height": 600,
+    "initial_predators": 200,
+    "initial_prey": 300
+  },
+  "species": {
+    "prey": {
+      "speed": 5.0,
+      "vision": 18.0,
+      "hunger_rate" : 0.0,
+      "hunger_max" : 100.0,
+      "reproduce_chance": 0.005,
+      "max_age": 120.0
+      
+    },
+    "predator": {
+      "speed": 7.0,
+      "vision": 100.0,
+      "hunger_rate": 1,
+      "hunger_max": 10.0,
+      "reproduce_chance": 0.03,
+      "max_age": 160.0
+    },
+    "grass": {
+      "growth_rate": 0.1,
+      "max_growth": 10.0
+    }
+  },
+
+  "sim": {
+    "tick_dt": 0.2,
+    "max_ticks": 10000,
+    "render_ascii": false,
+    "seed": 42069
+  }
+}
