@@ -368,6 +368,7 @@ private:
     sf::CircleShape preyShape;
 
 };
+/*  
 
 class GrassGrowthSystem {
 public:
@@ -383,8 +384,9 @@ public:
 private:
     const Config& cfg;
 };
+*/
 
-
+/*
 class GrassConsumptionSystem {
 public:
     GrassConsumptionSystem(const Config& cfg) : cfg(cfg) {}
@@ -415,3 +417,4 @@ public:
 private:
     const Config& cfg;
 };
+*/

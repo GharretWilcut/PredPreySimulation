@@ -21,5 +21,6 @@ struct Grass {
 };
 
 
+//this is for an a-life clone I was looking into
 enum class Faction { Neutral, Herbivore, Carnivore, Mutant, Military, Stalker };
 struct FactionTag { Faction f; };
